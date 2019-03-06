@@ -1,4 +1,4 @@
-FROM php:7.1
+FROM php:7.2
 MAINTAINER ISW Leuven <support@iswleuven.be>
 RUN apt-get update -yqq \
   && apt-get install -y gnupg2 \
